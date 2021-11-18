@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "/usr/bin/alacritty"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+      "/usr/bin/alacritty"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+      "/usr/lib/firefox/firefox"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+      "/usr/bin/alacritty"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+      "/usr/lib/firefox/firefox"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+      "/usr/lib/firefox/firefox"
+    ],
+    "working_directory": "/home/bevis"
+  }
+]

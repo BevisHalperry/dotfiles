@@ -1,0 +1,283 @@
+{
+  "border": "pixel",
+  "current_border_width": -1,
+  "floating": "auto_off",
+  "fullscreen_mode": 1,
+  "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0
+  },
+  "layout": "splith",
+  "marks": [],
+  "name": "1",
+  "orientation": "horizontal",
+  "percent": 0.3333333333333333,
+  "scratchpad_state": "none",
+  "sticky": false,
+  "type": "workspace",
+  "workspace_layout": "default",
+  "nodes": [
+    {
+      "border": "pixel",
+      "current_border_width": -1,
+      "floating": "auto_off",
+      "fullscreen_mode": 0,
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "layout": "splitv",
+      "marks": [],
+      "name": null,
+      "orientation": "vertical",
+      "percent": 0.25000000000000006,
+      "scratchpad_state": "none",
+      "sticky": false,
+      "type": "con",
+      "workspace_layout": "default",
+      "nodes": [
+        {
+          "border": "pixel",
+          "current_border_width": 3,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 600
+          },
+          "layout": "splith",
+          "marks": [],
+          "name": "\uf07c  ~ \uf061 gotop",
+          "orientation": "none",
+          "percent": 0.4833333333333332,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "swallows": [
+            {
+              "class": "^Alacritty$",
+              "instance": "^Alacritty$",
+              "title": "^\uf07c\\ \\ \\~\\ \uf061\\ gotop$"
+            }
+          ]
+        },
+        {
+          "border": "pixel",
+          "current_border_width": -1,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "layout": "splith",
+          "marks": [],
+          "name": null,
+          "orientation": "horizontal",
+          "percent": 0.4083333333333332,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "nodes": [
+            {
+              "border": "pixel",
+              "current_border_width": -1,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "layout": "tabbed",
+              "marks": [],
+              "name": null,
+              "orientation": "horizontal",
+              "percent": 1.0,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "nodes": [
+                {
+                  "border": "pixel",
+                  "current_border_width": 3,
+                  "floating": "auto_off",
+                  "fullscreen_mode": 0,
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 800,
+                    "height": 600
+                  },
+                  "layout": "splith",
+                  "marks": [],
+                  "name": "\uf07c  ~ \uf061 spt",
+                  "orientation": "none",
+                  "percent": 0.5,
+                  "scratchpad_state": "none",
+                  "sticky": false,
+                  "type": "con",
+                  "workspace_layout": "default",
+                  "swallows": [
+                    {
+                      "class": "^Alacritty$",
+                      "instance": "^Alacritty$",
+                      "title": "^\uf07c\\ \\ \\~\\ \uf061\\ spt$"
+                    }
+                  ]
+                },
+                {
+                  "border": "pixel",
+                  "current_border_width": 3,
+                  "floating": "auto_off",
+                  "fullscreen_mode": 0,
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 1888,
+                    "height": 981
+                  },
+                  "layout": "splith",
+                  "marks": [],
+                  "name": "YouTube \u2014 Mozilla Firefox",
+                  "orientation": "none",
+                  "percent": 0.5,
+                  "scratchpad_state": "none",
+                  "sticky": false,
+                  "type": "con",
+                  "workspace_layout": "default",
+                  "swallows": [
+                    {
+                      "class": "^firefox$",
+                      "instance": "^Navigator$",
+                      "title": "^YouTube\\ \u2014\\ Mozilla\\ Firefox$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "border": "pixel",
+          "current_border_width": 3,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 600
+          },
+          "layout": "splith",
+          "marks": [],
+          "name": "cava",
+          "orientation": "none",
+          "percent": 0.10833333333333328,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "swallows": [
+            {
+              "class": "^Alacritty$",
+              "instance": "^Alacritty$",
+              "title": "^cava$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "border": "pixel",
+      "current_border_width": -1,
+      "floating": "auto_off",
+      "fullscreen_mode": 0,
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "layout": "stacked",
+      "marks": [],
+      "name": null,
+      "orientation": "vertical",
+      "percent": 0.7500000000000002,
+      "scratchpad_state": "none",
+      "sticky": false,
+      "type": "con",
+      "workspace_layout": "default",
+      "nodes": [
+        {
+          "border": "pixel",
+          "current_border_width": 3,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 1018
+          },
+          "layout": "splith",
+          "marks": [],
+          "name": "Dashboard | The Vet Wound Library \u2014 Mozilla Firefox",
+          "orientation": "none",
+          "percent": 0.5,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "swallows": [
+            {
+              "class": "^firefox$",
+              "instance": "^Navigator$",
+              "title": "^Dashboard\\ \\|\\ The\\ Vet\\ Wound\\ Library\\ \u2014\\ Mozilla\\ Firefox$"
+            }
+          ]
+        },
+        {
+          "border": "pixel",
+          "current_border_width": 3,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1888,
+            "height": 1018
+          },
+          "layout": "splith",
+          "marks": [],
+          "name": "New Tab \u2014 Mozilla Firefox",
+          "orientation": "none",
+          "percent": 0.5,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "swallows": [
+            {
+              "class": "^firefox$",
+              "instance": "^Navigator$",
+              "title": "^New\\ Tab\\ \u2014\\ Mozilla\\ Firefox$"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

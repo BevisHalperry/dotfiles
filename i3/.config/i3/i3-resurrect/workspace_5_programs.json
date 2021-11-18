@@ -1,0 +1,14 @@
+[
+  {
+    "command": [
+      "/opt/spotify/spotify"
+    ],
+    "working_directory": "/home/bevis"
+  },
+  {
+    "command": [
+        "/usr/bin/alacritty","-e","cava"
+    ],
+    "working_directory": "/home/bevis"
+  }
+]
