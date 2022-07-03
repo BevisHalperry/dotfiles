@@ -21,7 +21,7 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:"JetBrainsMono Nerd Font" 10
+font pango:"JetBrainsMono Nerd Font" 12
 
 # set the mod key to the winkey:
 set $mod Mod4
@@ -54,7 +54,8 @@ new_window pixel 3
 # Set inner/outer gaps
 gaps inner 12
 gaps outer 8
-gaps top 24
+gaps top 32
+gaps bottom 0
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -293,9 +294,9 @@ set $ws10 "10"
 # use workspaces on different displays:
 # where you have to replace VGA-0/HDMI-0 with the names for your displays 
 # you can get from xrandr command
-workspace $ws1 output DisplayPort-0
-workspace $ws2 output DisplayPort-0
-workspace $ws3 output DisplayPort-0
+workspace $ws1 output eDP1
+workspace $ws2 output eDP1
+workspace $ws3 output eDP1
 workspace $ws4 output DisplayPort-0
 workspace $ws5 output DisplayPort-0
 workspace $ws6 output DisplayPort-1

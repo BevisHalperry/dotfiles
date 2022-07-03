@@ -27,7 +27,7 @@ colors:
     cyan: "#8FBCBB"
     white: "#ECEFF4"
 
-background_opacity: 1.0
+window.opacity: 1.0
 
 font:
   normal:
@@ -44,7 +44,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 11.0
+  size: 6.0
 
   offset:
     x: 0

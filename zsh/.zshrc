@@ -134,3 +134,4 @@ notify-send "cool2" "yeah it is working"'
 #Development Aliases
 export LOCAL_IP=`ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'`
 alias serve="browser-sync start -s -f . --no-notify --host $LOCAL_IP --port 9000"
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme

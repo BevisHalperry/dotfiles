@@ -24,15 +24,15 @@ background-alt = #00000000
 ;foreground = ${xrdb:color7:#222}
 foreground = #eceff4
 foreground-alt = #eceff4
-primary = #5E81AC
-secondary = #e60053
-alert = #bd2c40
+primary = #5e81ac
+secondary = #d08770
+alert = #bf616A
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 98.4%
-height = 23
-offset-x = 0.8%
+width = 98.2%
+height = 30
+offset-x = 0.9%
 offset-y = 0.5%
 radius = 0.0
 fixed-center = true
@@ -52,7 +52,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "JetBrainsMono Nerd Font:size=9;2"
+font-0 = "JetBrainsMono Nerd Font:size=11;2"
 font-1 = "JetBrainsMono Nerd Font:size=11;3"
 font-2 = "JetBrainsMono Nerd Font:size=13;3"
 font-3 = "JetBrainsMono Nerd Font:size=14;3.8"
@@ -60,7 +60,7 @@ font-3 = "JetBrainsMono Nerd Font:size=14;3.8"
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
 
-modules-left = launcher sep xwindow
+modules-left = launcher sep xwindow 
 modules-center = i3
 modules-right = syncthing backlight-acpi pulseaudio xkeyboard wlan eth battery date sep power
 
@@ -86,7 +86,7 @@ cursor-scroll = ns-resize
 type=custom/text
 content = 
 content-font=2
-content-foreground=#1793d1
+content-foreground=#88c0d0
 ;content-foreground=${colors.foreground}
 content-padding=0
 click-left= "bash ~/.config/polybar/scripts/launcher.sh"
@@ -145,13 +145,13 @@ ws-icon-0 = 1;%{T2}卑 %{T-}
 ws-icon-1 = 2;%{T2}ﱢ %{T-}
 ws-icon-2 = 3;%{T3}ﯾ %{T-}
 ws-icon-3 = 4;%{T2} %{T-}
-ws-icon-4 = 5;%{T2} %{T-}|
+ws-icon-4 = 5;%{T2} %{T-}
 
-ws-icon-5 = 6; | %{T3} %{T-}
+ws-icon-5 = 6;%{T3} %{T-}
 ws-icon-6 = 7;%{T2} %{T-}
 ws-icon-7 = 8;%{T3} %{T-}
 ws-icon-8 = 9;%{T3} %{T-}
-ws-icon-9 = 10;%{T4} %{T-}
+ws-icon-9 = 10;%{T4}%{T-}
 ws-icon-default = " "
 format = <label-state><label-mode>
 ;<label-mode>
@@ -168,16 +168,16 @@ label-mode-background = ${colors.primary}
 ; focused = Active workspace on focused monitor
 ;label-focused = %index%
 label-focused = %icon%
-label-focused-background = #0000
+label-focused-background = #D08770
 ;${colors.background-alt}
 ;label-focused-underline= ${colors.primary}
-label-focused-foreground= #85a7e6
+label-focused-foreground= #eceff4
 ;label-focused-foreground= ${colors.primary}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-label-unfocused-foreground = #ffffff
+label-unfocused-foreground = #eceff4
 label-unfocused-padding = 2
 
 ; visible = Active workspace on unfocused monitor
@@ -256,7 +256,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlan0
 interval = 3.0
 
 format-connected = <label-connected>
@@ -298,11 +298,11 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date ="%{T2}%{T-} %a,%e "
-date-alt = "%{T2}%{T-} %e %b %Y "
+date = "%{T2}%{T-} %a %d/%m/%y "
+date-alt = "%{T2}%{T-} %A%e %B %Y "
 
-time = "%{T2}%{T-} %I:%M %p"
-time-alt = "%{T2}%{T-} %I:%M:%S %p"
+time-alt = "%{T2}%{T-} %I:%M %p"
+time = "%{T2}%{T-} %H:%M:%S"
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -371,7 +371,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
+battery = BAT0
 adapter = ACAD
 full-at = 98
 
