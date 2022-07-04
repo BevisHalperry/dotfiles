@@ -262,9 +262,9 @@
 (setq org-latex-minted-options
       '(("frame" "lines") ("linenos=true")))
 
-(use-package! pdf-tools
-  :config
-  (pdf-tools-install))
+;;(use-package! pdf-tools
+;;  :config
+;;  (pdf-tools-install))
 
 
 ;; Org ref and bibtex thangs

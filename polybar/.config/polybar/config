@@ -441,7 +441,7 @@ type = custom/text
 format-spacing = 2
 content = %{T2}%{T-}
 content-foreground = ${colors.alert}
-click-left = "bash .config/rofi/powermenu/powermenu.sh"
+click-left = "bash .config/rofi/scripts/powermenu.sh"
 
 [module/powermenu]
 type = custom/menu

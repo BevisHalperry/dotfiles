@@ -1,6 +1,6 @@
 configuration {
 	modi: "drun,run,window,ssh";
-	width: 100;
+	width: 100%;
 	lines: 1;
 	columns: 4;
 /*	font: "FuraCode Nerd Font 12";*/
